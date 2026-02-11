@@ -1,21 +1,30 @@
-const Skills = () => {
+function Skills() {
+  const skills = [
+    "Magento 2 (Custom Modules & Theme Dev)",
+    "Magento PWA Studio (React)",
+    "PHP & CodeIgniter (MVC)",
+    "Shopify (Liquid)",
+    "GraphQL & REST APIs",
+    "MySQL & DB Design",
+    "HTML, CSS, Bootstrap",
+    "JavaScript, jQuery, AJAX",
+    "Git & GitHub",
+    "Performance Optimization"
+  ];
+
   return (
     <section>
       <h2>Skills</h2>
-      <ul style={{ listStyle: "none", padding: 0 }}>
-        <li>Magento 2 (Custom Modules & Theme Development)</li>
-        <li>Magento PWA Studio (React)</li>
-        <li>PHP & CodeIgniter (MVC Architecture)</li>
-        <li>Shopify Theme Development (Liquid)</li>
-        <li>GraphQL & REST APIs</li>
-        <li>MySQL & Database Design</li>
-        <li>HTML, CSS, Bootstrap</li>
-        <li>JavaScript, jQuery, AJAX</li>
-        <li>Git & GitHub</li>
-        <li>Performance Optimization</li>
-      </ul>
+
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-card">
+            {skill}
+          </div>
+        ))}
+      </div>
     </section>
   );
-};
+}
 
 export default Skills;

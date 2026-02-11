@@ -1,8 +1,24 @@
+import profile from "../assets/profile.jpg";
+
 function Header() {
   return (
-    <div style={{ padding: "40px", background: "#0f172a", color: "white" }}>
-      <h1>Sohit Chauhan</h1>
-      <h3>Magento Developer | PWA | PHP | Shopify</h3>
+    <div className="hero">
+      <div>
+        <img src={profile} alt="Sohit Chauhan" className="profile-img" />
+      </div>
+
+      <div className="hero-right">
+        <h1>Sohit Chauhan</h1>
+        <h3>PHP | Magento Developer</h3>
+        <p>3.5+ Years Experience in Magento 2 & eCommerce Development</p>
+
+        <div className="hero-buttons">
+          <a href="#projects" className="btn-primary">View Projects</a>
+          <a href="/sohit-resume.pdf" download className="btn-secondary">
+            Download Resume
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
