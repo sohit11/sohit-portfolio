@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/sohit-portfolio/static/css/main.6f521969.css",
-    "main.js": "/sohit-portfolio/static/js/main.c7874e18.js",
+    "main.css": "/sohit-portfolio/static/css/main.458ed3f2.css",
+    "main.js": "/sohit-portfolio/static/js/main.683797a0.js",
     "static/js/453.d2fad95a.chunk.js": "/sohit-portfolio/static/js/453.d2fad95a.chunk.js",
+    "static/media/profile.jpg": "/sohit-portfolio/static/media/profile.e64bedd1178f21141e10.jpg",
     "index.html": "/sohit-portfolio/index.html",
-    "main.6f521969.css.map": "/sohit-portfolio/static/css/main.6f521969.css.map",
-    "main.c7874e18.js.map": "/sohit-portfolio/static/js/main.c7874e18.js.map",
+    "main.458ed3f2.css.map": "/sohit-portfolio/static/css/main.458ed3f2.css.map",
+    "main.683797a0.js.map": "/sohit-portfolio/static/js/main.683797a0.js.map",
     "453.d2fad95a.chunk.js.map": "/sohit-portfolio/static/js/453.d2fad95a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f521969.css",
-    "static/js/main.c7874e18.js"
+    "static/css/main.458ed3f2.css",
+    "static/js/main.683797a0.js"
   ]
 }
