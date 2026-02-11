@@ -10,8 +10,7 @@ const Projects = () => {
         "jQuery",
         "MySQL",
         "HTML",
-        "CSS",
-        "Bootstrap"
+        "CSS"
       ]
     },
     {
@@ -24,8 +23,7 @@ const Projects = () => {
         "jQuery",
         "MySQL",
         "HTML",
-        "CSS",
-        "Bootstrap"
+        "CSS"
       ]
     },
     {
@@ -38,8 +36,7 @@ const Projects = () => {
         "jQuery",
         "MySQL",
         "HTML",
-        "CSS",
-        "Bootstrap"
+        "CSS"
       ]
     },
     {
