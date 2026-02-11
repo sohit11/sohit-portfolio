@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sohit-portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/sohit-portfolio/static/js/main.5cd7485e.js",
+    "static/js/453.d2fad95a.chunk.js": "/sohit-portfolio/static/js/453.d2fad95a.chunk.js",
+    "index.html": "/sohit-portfolio/index.html",
+    "main.f855e6bc.css.map": "/sohit-portfolio/static/css/main.f855e6bc.css.map",
+    "main.5cd7485e.js.map": "/sohit-portfolio/static/js/main.5cd7485e.js.map",
+    "453.d2fad95a.chunk.js.map": "/sohit-portfolio/static/js/453.d2fad95a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.5cd7485e.js"
+  ]
+}
