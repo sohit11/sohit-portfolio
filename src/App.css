@@ -28,6 +28,16 @@ p {
   margin: auto;
   line-height: 1.6;
 }
+.project {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

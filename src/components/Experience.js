@@ -1,18 +1,22 @@
-function Experience() {
+const Experience = () => {
   return (
-    <section style={{ padding: "30px" }}>
+    <section>
       <h2>Experience</h2>
-      <p><b>Magento Developer – 3.5 Years</b></p>
+
+      <h3>Magento Developer – 3.5+ Years</h3>
+      <p><strong>IDS Logic, Noida (Sep 2022 – Present)</strong></p>
+
       <ul>
-        <li>Magento 2 custom module development</li>
-        <li>Magento theme development</li>
-        <li>Magento PWA Studio installation & customization</li>
-        <li>React + GraphQL integration</li>
-        <li>Shopify theme customization</li>
-        <li>PHP & CodeIgniter development</li>
+        <li>Developed and maintained Magento 2 eCommerce websites</li>
+        <li>Custom module development and Magento theme customization</li>
+        <li>Magento PWA Studio installation and customization</li>
+        <li>React + GraphQL integration for headless storefronts</li>
+        <li>Performance optimization and server-side configurations</li>
+        <li>Third-party API and payment gateway integrations</li>
+        <li>Collaborated with designers and project managers</li>
       </ul>
     </section>
   );
-}
+};
 
 export default Experience;
