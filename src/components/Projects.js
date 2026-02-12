@@ -51,7 +51,7 @@ const Projects = () => {
       ]
     },
     {
-      title: "Babsi (babsi.at)",
+      title: "Babsi's (babsi.at)",
       desc: "Led migration of a live eCommerce store from Shopware to Shopify including products, categories, variants, and media assets. Performed theme customization, implemented custom code solutions, optimized variant image handling, and configured multi-level navigation and newsletter integrations.",
       tech: [
         "Shopify Admin Panel",

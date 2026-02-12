@@ -88,7 +88,7 @@ body {
   display: flex;
   align-items: center;   /* vertical center */
   justify-content: center;
-  gap: 80px;
+  /* gap: 80px; */
   padding: 120px 20px;
   /* min-height: 100vh;      */
   background: linear-gradient(135deg, #0f172a, #1e293b);
@@ -103,6 +103,7 @@ body {
   object-fit: cover;
   border: 5px solid #3b82f6;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  object-position: top center; 
 }
 
 /* Hero Text */
@@ -124,6 +125,9 @@ body {
 /* Buttons */
 .hero-buttons {
   margin-top: 25px;
+  display: flex;
+  flex-direction: column; /* stack buttons on mobile */
+  gap: 15px;
 }
 
 .btn-primary,
@@ -153,7 +157,7 @@ body {
 
 /* Sections */
 section {
-  padding: 40px 20px;
+  padding: 30px 20px;
   text-align: center;
   background-color: #0f172a;
 }
@@ -241,7 +245,7 @@ ul {
 }
 
 .about-section {
-  padding: 100px 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
@@ -267,7 +271,7 @@ ul {
 }
 
 .projects-section {
-  padding: 100px 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
@@ -327,5 +331,76 @@ ul {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-right {
+    max-width: 100%;
+  }
+
+  .hero-right h1 {
+    font-size: 28px;
+  }
+
+  .hero-right h3 {
+    font-size: 20px;
+  }
+
+  .hero-right p {
+    font-size: 14px;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 769px) {
+  .hero {
+    flex-direction: row;
+    gap: 80px;
+    text-align: left;
+    padding: 120px 40px;
+  }
+
+  .profile-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-right h1 {
+    font-size: 42px;
+  }
+
+  .hero-right h3 {
+    font-size: 22px;
+  }
+
+  .hero-right p {
+    font-size: 18px;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: auto;
   }
 }

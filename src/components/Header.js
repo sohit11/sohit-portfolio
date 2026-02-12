@@ -14,7 +14,7 @@ function Header() {
 
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
-          <a href="/sohit-resume.pdf" download className="btn-secondary">
+          <a href={`${process.env.PUBLIC_URL}/sohit-resume.pdf`} download className="btn-secondary">
             Download Resume
           </a>
         </div>
