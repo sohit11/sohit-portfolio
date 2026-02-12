@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sohit-portfolio/static/css/main.4159ad64.css",
+    "main.css": "/sohit-portfolio/static/css/main.2dbcd0b5.css",
     "main.js": "/sohit-portfolio/static/js/main.991125bd.js",
     "static/js/453.d2fad95a.chunk.js": "/sohit-portfolio/static/js/453.d2fad95a.chunk.js",
     "static/media/profile.jpg": "/sohit-portfolio/static/media/profile.e64bedd1178f21141e10.jpg",
     "index.html": "/sohit-portfolio/index.html",
-    "main.4159ad64.css.map": "/sohit-portfolio/static/css/main.4159ad64.css.map",
+    "main.2dbcd0b5.css.map": "/sohit-portfolio/static/css/main.2dbcd0b5.css.map",
     "main.991125bd.js.map": "/sohit-portfolio/static/js/main.991125bd.js.map",
     "453.d2fad95a.chunk.js.map": "/sohit-portfolio/static/js/453.d2fad95a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4159ad64.css",
+    "static/css/main.2dbcd0b5.css",
     "static/js/main.991125bd.js"
   ]
 }
